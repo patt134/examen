@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen en Línea</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Examen en Línea</h1>
+    </header>
+    <main>
+        <form id="examForm"></form>
+        <button id="submitBtn" type="button" onclick="calcularResultados()">Enviar</button>
+        <section id="resultados" style="display: none;">
+            <h2>Resultados</h2>
+            <p id="mensajeResultado"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Examen en Línea. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
